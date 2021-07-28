@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>电影票预订</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <form >
+            <span>Pick a movie:</span>
+            <select name="movies">
+            <option value="10">Avengers: Endgame($10)</option>
+            <option value="12">Jocker($12)</option>
+            <option value="8">Toy Story 4($8)</option>
+            <option value="9">The Lion King($9)</option>
+            </select>
+        </form>
+        <div id="middleMessage">
+            <div>
+            <div></div><small>N/A</small>
+            </div>
+            <div>
+                <div></div><small>Selected</small>
+            </div>
+            <div>
+                <div></div><small>Occupied</small>
+            </div>
+        </div>
+        <div id="container">
+        <div id="screen"></div>
+        <div id="seatArea">
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seatOccupied"></span>
+                    <span class="seatOccupied"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seatOccupied"></span>
+                    <span class="seatOccupied"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seatOccupied"></span>
+                    <span class="seatOccupied"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                </div>
+                <div class="middleseat">
+                    <span class="seat"></span>
+                    <span class="seat"></span>
+                    <span class="seatOccupied"></span>
+                    <span class="seatOccupied"></span>
+                </div>
+                <div class="rightseat">
+                    <span class="seatOccupied"></span>
+                    <span class="seat"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="message">You have selected<span>0</span>
+        seats for a price of $<span>0</span>
+        </div>
+    </body>
+</html>
